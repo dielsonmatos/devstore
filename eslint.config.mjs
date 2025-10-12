@@ -23,3 +23,7 @@ const eslintConfig = [
 ];
 
 export default eslintConfig;
+
+{
+  "extends"; ["next/core-web-vitals", "@rocketseat/eslint-config/next"]
+}
