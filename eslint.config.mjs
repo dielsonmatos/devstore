@@ -10,7 +10,11 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = [
-  ...compat.extends("next/core-web-vitals", "next/typescript"),
+  ...compat.extends(
+    "next/core-web-vitals",
+    "next/typescript",
+    "@rocketseat/eslint-config/next",
+  ),
   {
     ignores: [
       "node_modules/**",
@@ -24,6 +28,9 @@ const eslintConfig = [
 
 export default eslintConfig;
 
-{
-  "extends"; ["next/core-web-vitals", "@rocketseat/eslint-config/next"]
-}
+// {
+//   extends: [
+//     "next/core-web-vitals",
+//     "@rocketseat/eslint-config/next"
+//   ]
+// }
