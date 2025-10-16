@@ -7,5 +7,5 @@ export default function HomeLoading() {
       <Skeleton className="col-span-3 row-span-3" />
       <Skeleton className="col-span-3 row-span-3" />
     </div>
-  )
+  );
 }
