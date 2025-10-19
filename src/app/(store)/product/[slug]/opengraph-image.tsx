@@ -2,7 +2,6 @@ import { ImageResponse } from 'next/og'
 import { api } from '@/data/api'
 import { Product } from '@/data/types/product'
 import { env } from '@/env'
-import colors from 'tailwindcss/colors'
 
 export const runtime = 'edge'
 
